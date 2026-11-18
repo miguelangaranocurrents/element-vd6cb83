@@ -695,7 +695,7 @@ export class RoomView extends React.Component<IRoomProps, IRoomState> {
                     rootEvent: thread.rootEvent,
                     initialEvent,
                     highlighted: this.roomViewStore.isInitialEventHighlighted(),
-                    scroll_into_view: this.roomViewStore.initialEventScrollIntoView(),
+                    scrollIntoView: this.roomViewStore.initialEventScrollIntoView(),
                 });
             } else {
                 newState.initialEventId = initialEventId;
